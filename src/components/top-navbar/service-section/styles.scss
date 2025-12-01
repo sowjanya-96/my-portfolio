@@ -1,0 +1,46 @@
+.service-section{
+    display: flex;
+    align-content: center;
+   background-color:white ;
+
+    padding: 40px o;
+    h4{
+        text-align: center;
+        margin-bottom:20px;
+        font-size: 26px;
+        font-weight: 700;
+        padding: 20px;
+    }
+    .service-box svg{
+        font-size: 30px;
+    }
+   
+    .service-box{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:15px;
+    }
+    .service-box span{
+         background-color:white ;
+        padding: 10px 20px;
+        margin: 10px;
+        border-radius: 25px;
+        font-size: 16px;
+        color:  black ;
+        font-weight: 500;
+        border: 1px solid  #00897B;
+          &:hover{
+            background-color: #00897B;
+        }
+        .services-title{
+            color: black;
+        }
+         .services-title span{
+            color:#00897B ;
+        }
+    }
+   
+
+}
+           

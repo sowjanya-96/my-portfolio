@@ -1,0 +1,88 @@
+.project-section{
+     background-color:white ;
+
+
+  
+    padding: 60px 0;
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .project-card{
+        background: #fff;
+        padding: 20px;
+        border-radius: 16px;
+        box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+        margin-bottom:30px;
+      
+    }
+    h4{
+        font-size: 30px;
+        font-weight: 700;
+        padding: 10px;
+        text-align: center;
+    }
+    .project-img{
+        width:50% ;
+        height: 50vh;
+        border-radius: 16px 16px 0 0;
+    }
+    .tags{
+        display: flex;
+        flex-wrap: wrap;
+        gap:10px ;
+        margin: 18px 0;
+
+    }
+    .tags span{
+        background:#f5f7fa ;
+        padding: 8px 14px;
+        border-radius:20px ;
+        font-size:18px ;
+        border: 1px solid  #00897B ;
+        color:  black;
+          &:hover{
+            background-color:#00897B;
+        }
+    
+    }
+
+   .project-card h3{
+    font-size:22px ;
+    font-weight:700 ;
+    margin: 10px 0;
+    color: #00897B ;
+   }
+   .project-card p{
+    font-size:20px ;
+    color: black;
+    line-height:1.6 ;
+   }
+   .card-footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .live-btn{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    
+    background:  #00897B;
+    color: #fff;
+    padding:12px 18px ;
+    border-radius: 30px;
+    text-decoration:none ;
+    font-weight:600 ;
+    font-size: 16px;
+   }
+   .github-btn{
+    font-size: 28px;
+    color:  #00897B;
+    text-decoration: none;
+   }
+   
+   
+}

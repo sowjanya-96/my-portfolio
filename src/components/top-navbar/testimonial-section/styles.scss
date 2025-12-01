@@ -1,0 +1,67 @@
+.testimonial-section{
+   
+    
+    background-color: white ;
+
+
+    
+    h4{
+        text-align: center;
+        margin-bottom:20px;
+        font-size: 30px;
+        font-weight: 700;
+        padding: 20px;
+        
+    }
+
+    h3{
+        color:  black;
+    }
+    p{
+        font-size: 22px;
+        margin-bottom: 30px;
+        color:  black;
+        padding: 20px;
+        text-align: center;
+    
+    }
+   
+    
+   
+    .cards-row{
+        display: flex;
+        justify-content: center;
+    gap: 25px;
+    margin: 30px;
+    
+   
+    
+    
+       
+    }
+   
+    .card-box h3{
+       
+        font-size: 20px;
+       
+      
+    
+    }
+
+.card-box p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.card-box{
+    background:   #00897B;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+     &:hover{
+        background-color: #00897B;
+    }
+    
+    
+}
+
+}
